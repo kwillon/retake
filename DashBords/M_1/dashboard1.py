@@ -7,7 +7,7 @@ import seaborn as sns
 # Загрузка данных
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\Ксения\Project\retake\DashBords\M_1\Copy of Megy_data_durty- July 11, 2024, 5_57 PM - Sheet1.csv")
+    return pd.read_csv(r"DashBords\M_1\Copy of Megy_data_durty- July 11, 2024, 5_57 PM - Sheet1.csv")
 
 df = load_data()
 

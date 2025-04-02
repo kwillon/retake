@@ -10,7 +10,7 @@ def load_data(csv_path):
     return pd.read_csv(csv_path)
 
 # Пути к данным
-df = load_data(r"C:\Users\Ксения\Project\retake\DashBords\M_3\Megy_cryst.csv")
+df = load_data(r"DashBords\M_3\Megy_cryst.csv")
 
 st.title("Качество данных кристаллических структур")
 

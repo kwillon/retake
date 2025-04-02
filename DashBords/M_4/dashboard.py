@@ -11,7 +11,7 @@ import textstat
 # Загрузка данных
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:/Users/Ксения/Project/retake/DashBords/M_4/megy_all1.csv")
+    return pd.read_csv("DashBords\M_4\megy_all1.csv")
 
 df = load_data()
 

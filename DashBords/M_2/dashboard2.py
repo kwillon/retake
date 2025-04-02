@@ -25,8 +25,8 @@ def load_data(csv_path, json_folder):
     return df
 
 # Пути к данным
-df = load_data(r"C:\Users\Ксения\Project\retake\DashBords\M_2\Megy_json_files.csv.csv",
-                r"C:\Users\Ксения\Project\retake\DashBords\M_2\json")
+df = load_data(r"DashBords\M_2\Megy_json_files.csv.csv",
+                r"DashBords\M_2\json")
 
 st.title("Data Quality Dashboard для json файлов")
 
