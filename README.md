@@ -53,9 +53,3 @@ DashBords/
 ```sh
 streamlit run dashboard.py  # или dashboard1.py, dashboard2.py и т. д.
 ```
-
-## Требования
-Для работы с проектом необходимо установить зависимости:
-```sh
-pip install -r requirements.txt
-```
